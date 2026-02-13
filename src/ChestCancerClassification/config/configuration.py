@@ -1,7 +1,7 @@
 import os
-from ChestCancerClassification.constants import *
-from ChestCancerClassification.utils.common import read_yaml, create_directories
-from ChestCancerClassification.entity.config_entity import (DataIngestionConfig, PrepareBaseModelConfig, TrainingConfig, EvaluationConfig)
+from src.ChestCancerClassification.constants import *
+from src.ChestCancerClassification.utils.common import read_yaml, create_directories
+from src.ChestCancerClassification.entity.config_entity import (DataIngestionConfig, PrepareBaseModelConfig, TrainingConfig, EvaluationConfig)
 
 class ConfigurationManager:
     def __init__(
